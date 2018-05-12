@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "miltonwebsiteicon";
+  src:url("../fonts/miltonwebsiteicon.eot");
+  src:url("../fonts/miltonwebsiteicon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/miltonwebsiteicon.woff") format("woff"),
+    url("../fonts/miltonwebsiteicon.ttf") format("truetype"),
+    url("../fonts/miltonwebsiteicon.svg#miltonwebsiteicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "miltonwebsiteicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ico-"]:before,
+[class*=" ico-"]:before {
+  font-family: "miltonwebsiteicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-menu:before {
+  content: "\62";
+}
+.ico-game:before {
+  content: "\63";
+}
+.ico-music:before {
+  content: "\64";
+}
+.ico-android:before {
+  content: "\65";
+}
+.ico-travel:before {
+  content: "\66";
+}
+.ico-film:before {
+  content: "\67";
+}
+.ico-linux:before {
+  content: "\68";
+}
+.ico-pet:before {
+  content: "\69";
+}
+.ico-money:before {
+  content: "\6a";
+}
+.ico-sheet:before {
+  content: "\6b";
+}
+.ico-code:before {
+  content: "\6c";
+}
+.ico-seo-op1:before {
+  content: "\6d";
+}
+.ico-launch:before {
+  content: "\6e";
+}
+.ico-share:before {
+  content: "\6f";
+}
+.ico-seo-op2:before {
+  content: "\70";
+}
+.ico-support:before {
+  content: "\71";
+}
+.ico-map:before {
+  content: "\72";
+}
+.ico-map-marker:before {
+  content: "\73";
+}
+.ico-linkedin:before {
+  content: "\74";
+}
+.ico-github:before {
+  content: "\76";
+}
+.ico-twitter:before {
+  content: "\75";
+}
+.ico-facebook:before {
+  content: "\77";
+}
+.ico-plus:before {
+  content: "\78";
+}
+.ico-copyright:before {
+  content: "\79";
+}
+.ico-cta:before {
+  content: "\61";
+}
