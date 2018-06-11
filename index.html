@@ -11,21 +11,19 @@
   <body>
     <header class="main-header outer-wrap">
       <div class="outer-wrap-desktop">
-        <div class="header-inner-wrap inner-wrap">
-          <div class="content-logo">
+        <div class="header-inner-wrap inner-wrap"><a class="content-logo" href="/">
             <p>Milton</p>
-            <p>WebSite</p>
-          </div>
+            <p>WebSite</p></a>
           <div class="content-btn-menu">
             <div class="ico-menu" id="btn-menu"></div>
           </div>
         </div>
         <nav class="main-nav">
           <ul class="main-menu" id="content-menu">
-            <li class="main-menu__item"><a class="main-menu__link" href="#">inicio</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">acerca de mí</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">servicios</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">contáctame</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="/">inicio</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#about">acerca de mí</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#services">servicios</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#contact">contáctame</a></li>
           </ul>
         </nav>
       </div>
@@ -41,7 +39,7 @@
     </header>
     <main class="content-main outer-wrap">
       <section class="section-about inner-wrap">
-        <h1 class="section-title">acerca de mí</h1>
+        <h1 class="section-title" id="about">acerca de mí</h1>
         <p class="section-description">El área principal de mi experiencia es el desarrollo Front-end y todo lo relacionado con este lado de la web. HTML, CSS, JavaScript (ES5, ES6), creación de aplicaciones Web pequeñas y medianas, creación de complementos personalizados, características, animaciones y diseño de codificación simple.</p>
         <p class="section-description">A menudo trabajo como desarrollador en entornos CMS (WordPress, Drupal, Magento, Typo3, Joomla etc.), un activo seguidor del software libre y apasionado por el desarrollo de aplicaciones móviles (Android). Me apasiona aprender y estar al tanto de las nuevas tecnologías.  </p>
         <div class="hobbie-outer-wrap-desktop">
@@ -86,7 +84,7 @@
         </div>
       </section>
       <section class="section-services inner-wrap">
-        <h1 class="section-title">servicios</h1>
+        <h1 class="section-title" id="services">servicios</h1>
         <p class="section-description">Absolutamente apasionado por la experiencia del usuario simple pero sofisticado, lo que da como resultado clientes muy orgullosos.</p>
         <div class="content-services__inner-wrap">
           <div class="content-icons__services">
@@ -118,7 +116,7 @@
         </div>
       </section>
       <section class="section-contact inner-wrap">
-        <h1 class="section-title">contactame</h1>
+        <h1 class="section-title" id="contact">contactame</h1>
         <p class="section-description">Póngase en contacto a través del formulario o envíeme un correo electrónico directamente, me pondré en contacto con usted lo antes posible.</p>
         <form class="contact-form" action="" method="post">
           <input class="contact-form__name" type="text" id="name" name="name" placeholder="Tu nombre"/>
