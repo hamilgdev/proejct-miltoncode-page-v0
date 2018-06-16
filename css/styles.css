@@ -844,6 +844,9 @@ img {
   font-size: 0.625em;
   font-family: "Roboto Slab", serif;
   color: #E2E7EA; }
+  @media screen and (min-width: 1024px) {
+    .content-copy, .content-contact {
+      font-size: 0.875em; } }
   .content-copy [class*="ico-"]::before,
   .content-copy [class*="ico-"]::after, .content-contact [class*="ico-"]::before,
   .content-contact [class*="ico-"]::after {
