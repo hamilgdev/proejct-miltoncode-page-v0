@@ -11,22 +11,19 @@
   <body>
     <header class="main-header outer-wrap">
       <div class="outer-wrap-desktop">
-        <div class="header-inner-wrap inner-wrap">
-          <div class="content-logo">
+        <div class="header-inner-wrap inner-wrap"><a class="content-logo" href="/">
             <p>Milton</p>
-            <p>WebSite</p>
-          </div>
+            <p>WebSite</p></a>
           <div class="content-btn-menu">
             <div class="ico-menu" id="btn-menu"></div>
           </div>
         </div>
         <nav class="main-nav">
           <ul class="main-menu" id="content-menu">
-            <li class="main-menu__item"><a class="main-menu__link" href="#">inicio</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">acerca de mí</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">servicios</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">blog</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="#">contáctame</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="/">inicio</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#about">acerca de mí</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#services">servicios</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="#contact">contáctame</a></li>
           </ul>
         </nav>
       </div>
@@ -42,7 +39,7 @@
     </header>
     <main class="content-main outer-wrap">
       <section class="section-about inner-wrap">
-        <h1 class="section-title">acerca de mí</h1>
+        <h1 class="section-title" id="about">acerca de mí</h1>
         <p class="section-description">El área principal de mi experiencia es el desarrollo Front-end y todo lo relacionado con este lado de la web. HTML, CSS, JavaScript (ES5, ES6), creación de aplicaciones Web pequeñas y medianas, creación de complementos personalizados, características, animaciones y diseño de codificación simple.</p>
         <p class="section-description">A menudo trabajo como desarrollador en entornos CMS (WordPress, Drupal, Magento, Typo3, Joomla etc.), un activo seguidor del software libre y apasionado por el desarrollo de aplicaciones móviles (Android). Me apasiona aprender y estar al tanto de las nuevas tecnologías.  </p>
         <div class="hobbie-outer-wrap-desktop">
@@ -87,7 +84,7 @@
         </div>
       </section>
       <section class="section-services inner-wrap">
-        <h1 class="section-title">servicios</h1>
+        <h1 class="section-title" id="services">servicios</h1>
         <p class="section-description">Absolutamente apasionado por la experiencia del usuario simple pero sofisticado, lo que da como resultado clientes muy orgullosos.</p>
         <div class="content-services__inner-wrap">
           <div class="content-icons__services">
@@ -118,47 +115,22 @@
           </div>
         </div>
       </section>
-      <section class="section-blog inner-wrap">
-        <h1 class="section-title">blog</h1>
-        <p class="section-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, suscipit obcaecati aspernatur odio adipisci corporis sequi totam. Aspernatur, fugiat quasi!</p>
-        <div class="content-blogs">
-          <article class="content-blog"><a class="content-post" href="#">
-              <figure class="content-blog__img"><img class="img-post" src="img/example-bloc1.jpg" alt="post"/></figure>
-              <div class="data-fecha">2018-03-22</div>
-              <div class="content-blog__data">
-                <h1 class="content-blog__title">Titulo post</h1>
-                <p class="content-blog__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, excepturi!  </p>
-              </div></a></article>
-          <article class="content-blog"><a class="content-post" href="#">
-              <figure class="content-blog__img"><img src="img/example-bloc2.jpg" alt="post"/></figure>
-              <div class="data-fecha">2018-03-22</div>
-              <div class="content-blog__data">
-                <h1 class="content-blog__title">Titulo post</h1>
-                <p class="content-blog__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus voluptatum quos, in tenetur totam accusantium accusamus saepe dolor fuga ipsa, iste rem, delectus corporis eveniet possimus laborum commodi illum!</p>
-              </div></a></article>
-          <article class="content-blog"><a class="content-post" href="#">
-              <figure class="content-blog__img"><img src="img/example-bloc3.jpg" alt="post"/></figure>
-              <div class="data-fecha">2018-03-22</div>
-              <div class="content-blog__data">
-                <h1 class="content-blog__title">Titulo post</h1>
-                <p class="content-blog__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus voluptatum quos, in tenetur totam accusantium accusamus saepe dolor fuga ipsa, iste rem, delectus corporis eveniet possimus laborum commodi illum!</p>
-              </div></a></article>
-        </div>
-      </section>
       <section class="section-contact inner-wrap">
-        <h1 class="section-title">contactame</h1>
-        <p class="section-description">Póngase en contacto a través del formulario de contacto o envíenos un correo electrónico directamente, nos pondremos en contacto con usted lo antes posible</p>
-        <form class="contact-form" action="" method="post">
-          <input class="contact-form__name" type="text" id="name" name="name" placeholder="Tu nombre"/>
-          <input class="contact-form__email" type="email" id="email" name="email" placeholder="Email"/>
-          <textarea class="contact-form__comment" name="comment" cols="30" rows="10" placeholder="Comentario"></textarea><a class="contact-form__btn-enviar" href="#">Enviar</a>
-        </form>
-        <div class="content-info">
-          <h2 class="content-info__saludo">di hola</h2>
-          <div class="content-info__email">Email: <span>milton.website@gmail.com</span></div>
-          <div class="content-info__tel">Teléfono:<span>+57 3136265154</span></div>
-          <div class="content-map">
-            <div class="ico-map"></div><a class="content-map__link" href="#">google maps</a>
+        <h1 class="section-title" id="contact">contactame</h1>
+        <p class="section-description">Póngase en contacto a través del formulario o envíeme un correo electrónico directamente, me pondré en contacto con usted lo antes posible.</p>
+        <div class="contact-outer-wrap-desktop">
+          <form class="contact-form" action="" method="post">
+            <input class="contact-form__name" type="text" id="name" name="name" placeholder="Tu nombre"/>
+            <input class="contact-form__email" type="email" id="email" name="email" placeholder="Email"/>
+            <textarea class="contact-form__comment" name="comment" cols="30" rows="10" placeholder="Comentario"></textarea><a class="contact-form__btn-enviar" href="#">Enviar</a>
+          </form>
+          <div class="content-info">
+            <h2 class="content-info__saludo">di hola</h2>
+            <div class="content-info__email">Email: <span>milton.website@gmail.com</span></div>
+            <div class="content-info__tel">Teléfono:<span>+57 3136265154</span></div>
+            <div class="content-map">
+              <div class="ico-map"></div><a class="content-map__link" href="#">google maps</a>
+            </div>
           </div>
         </div>
       </section>

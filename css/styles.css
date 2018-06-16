@@ -517,13 +517,21 @@ img {
 .contact-form {
   margin: 0 auto;
   width: 80%; }
+  @media screen and (min-width: 1024px) {
+    .contact-form {
+      margin: 0;
+      max-width: 55%; } }
   .contact-form input, .contact-form textarea {
     display: block;
     width: 100%;
     margin: 16px 0;
     padding: .4em;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.75em; }
+    font-size: 0.75em;
+    color: #454545; }
+    @media screen and (min-width: 1024px) {
+      .contact-form input, .contact-form textarea {
+        font-size: 1em; } }
   .contact-form__btn-enviar {
     display: block;
     padding: .4em;
@@ -538,6 +546,8 @@ img {
       background-color: #272928; }
 
 .content-logo {
+  text-decoration: none;
+  text-decoration: none;
   font-family: "Black Ops One", cursive;
   font-weight: 400;
   text-align: center;
@@ -770,7 +780,15 @@ img {
 .section-contact {
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: #F7F7F7; }
+  background-color: #E2E7EA; }
+  @media screen and (min-width: 1024px) {
+    .section-contact .contact-outer-wrap-desktop {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      padding-bottom: 16px; } }
   .section-contact .content-info {
     margin: 16px 0;
     text-align: center;
@@ -782,10 +800,16 @@ img {
       font-weight: 400;
       font-family: "Roboto Slab", serif;
       text-transform: uppercase; }
+      @media screen and (min-width: 1024px) {
+        .section-contact .content-info__saludo {
+          font-size: 1.75em; } }
     .section-contact .content-info__email, .section-contact .content-info__tel {
       font-size: 0.875em; }
       .section-contact .content-info__email > span, .section-contact .content-info__tel > span {
         color: #253444; }
+      @media screen and (min-width: 1024px) {
+        .section-contact .content-info__email, .section-contact .content-info__tel {
+          font-size: 1.25em; } }
     .section-contact .content-info .content-map {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -820,6 +844,9 @@ img {
   font-size: 0.625em;
   font-family: "Roboto Slab", serif;
   color: #E2E7EA; }
+  @media screen and (min-width: 1024px) {
+    .content-copy, .content-contact {
+      font-size: 0.875em; } }
   .content-copy [class*="ico-"]::before,
   .content-copy [class*="ico-"]::after, .content-contact [class*="ico-"]::before,
   .content-contact [class*="ico-"]::after {
